@@ -1,0 +1,87 @@
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: #0078d4;
+    color: white;
+    padding: 1rem 0;
+}
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+nav {
+    float: right;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Hero */
+#hero {
+    background: url('https://images.unsplash.com/photo-1519389958375-3a16ae667c2f?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+#hero h2 { 
+    font-size: 2.5rem;
+}
+
+/* İçerik bölümleri */
+.content-section {
+    padding: 40px 0;
+}
+.content-section.alt {
+    background: #f4f4f4;
+}
+.content-section h2 {
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li::before {
+    content: "✔️ ";
+    margin-right: 5px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Mobil Uyum */
+@media(max-width: 768px) {
+    header h1, nav {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+    #hero h2 {
+        font-size: 2rem;
+    }
+}

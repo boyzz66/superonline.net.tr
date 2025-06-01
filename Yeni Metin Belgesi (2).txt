@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Superonline | Güncel TV+ & Yalın Fiber</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Superonline</h1>
+        <nav>
+            <a href="#tv">Güncel TV+</a>
+            <a href="#internet">Yalın Fiber</a>
+            <a href="#iletisim">İletişim</a>
+        </nav>
+    </div>
+</header>
+
+<section id="hero">
+    <div class="container">
+        <h2>Sınırsız keyif, sınırsız internet</h2>
+        <p>Superonline ile Güncel TV+ izleyin ve yüksek hızlı fiber internet kullanın.</p>
+    </div>
+</section>
+
+<section id="tv" class="content-section">
+    <div class="container">
+        <h2>Superonline Güncel TV+</h2>
+        <p>Güncel TV+, Superonline kullanıcılarına özel olarak sunulan dijital televizyon hizmetidir. 150’den fazla HD kalitede kanal, kendi zamanınızda izleyebileceğiniz catch-up içerikler ve EPG (Elektronik Program Kılavuzu) gibi özelliklerle keyfinizi katlıyor!</p>
+        <ul>
+            <li>✔️ 150+ HD Kanal</li>
+            <li>✔️ Catch-Up TV</li>
+            <li>✔️ Kolay Kullanımlı Arayüz</li>
+            <li>✔️ Mobil Uygulama Desteği</li>
+        </ul>
+    </div>
+</section>
+
+<section id="internet" class="content-section alt">
+    <div class="container">
+        <h2>Yalın Fiber Ev İnterneti</h2>
+        <p>Superonline Yalın Fiber paketi, evde hızlı ve güvenilir internet ihtiyacınızı karşılayan temel pakettir. Herhangi bir ekstra içerik olmadan doğrudan yüksek hızda internet!</p>
+        <ul>
+            <li>⚡ Hız: 100 Mbps – 1 Gbps arası seçenekler</li>
+            <li>🔒 Sınırsız veri trafiği</li>
+            <li>📶 Fiber altyapı</li>
+            <li>💻 Birden fazla cihaz bağlantısı</li>
+        </ul>
+    </div>
+</section>
+
+<section id="iletisim" class="content-section">
+    <div class="container">
+        <h2>İletişim & Başvuru</h2>
+        <p>Superonline hizmetlerine başlamak için aşağıdaki yöntemlerle bizimle iletişime geçebilirsin:</p>
+        <ul>
+            <li>📞 Çağrı Merkezi: 444 1 432</li>
+            <li>🌐 Web: <a href="https://www.superonline.com.tr"  target="_blank">superonline.com.tr</a></li>
+            <li>📍 Şubeler: Türkiye genelindeki bayilerimiz üzerinden başvurabilirsiniz.</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Superonline. Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+</body>
+</html>
